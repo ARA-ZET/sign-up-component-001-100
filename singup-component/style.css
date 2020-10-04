@@ -1,0 +1,66 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.component-overlay {
+  background-color: #e2dff2;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.component {
+  margin: 6rem auto;
+  width: 70%;
+  display: flex;
+}
+.component-left {
+  background-color: #24246f;
+  width: 40%;
+  border-radius: 0.5rem 0 0 0.5rem;
+  color: white;
+  padding: 0.9rem;
+}
+
+.component-left h3,
+.component-left p {
+  padding: 0 0 0.5rem 0.5rem;
+}
+.img-container {
+  width: 100%;
+}
+.img-container img {
+  width: 100%;
+  margin: 2rem auto 0;
+}
+
+.component-right {
+  background-color: #f6f5fc;
+  width: 60%;
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 10% 2rem;
+}
+
+.sign-up {
+  padding: 0.5rem;
+  background-color: white;
+  margin-bottom: 0.6rem;
+  width: 80%;
+  border-radius: 0.4rem;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+
+i {
+  background-color: rgb(241, 239, 239);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+.fab {
+  color: rgb(42, 101, 150);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
